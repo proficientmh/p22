@@ -1,0 +1,139 @@
+@media all and (max-width: 1250px){
+	.slide-carousel .slides .slide {
+	 
+	  flex: 0 0 calc(58% + 5px);
+	}
+	.slide-carousel .arrow-right {
+
+	  top: 56%;
+	  
+	}
+}
+@media all and (max-width: 1010px){
+	/* Navigation Arrow Right */
+	.slide-carousel .arrow-left {
+	  	right: 17%;
+  		top: 25%;
+	  
+	}
+	.slide-carousel .arrow-right {
+	  right: 17%;
+	  top: 52%;
+	  
+	}
+	.slide-carousel .slides .slide {
+	 
+	  flex: 0 0 calc(50% + 5px);
+	}
+	.slide-carousel .slides .slide span.text {
+		
+		margin-top: 30%;
+	}
+}
+
+@media all and (max-width: 992px){
+	/* Navigation Arrow Right */
+	.slide-carousel .arrow-left {
+	  	right: 17%;
+  		top: 25%;
+	  
+	}
+	.slide-carousel .arrow-right {
+	  right: 17%;
+	  top: 58%;
+	  
+	}
+	.slide-carousel .slides .slide span.text {
+		
+		font-size: 35px;
+	}
+	.slide-carousel .slides .slide {
+	  margin-right: 70px;
+	  flex: 0 0 calc(53% + 5px);
+	}
+	
+}
+@media all and (max-width: 768px){
+
+	.slide-carousel .slides .slide {
+	  margin-right: 70px;
+	}
+	
+	.slide-carousel .arrow-left {
+	  	right: 14%;
+  		top: 25%;
+  		font-size: 35px;
+  		padding-right: 5px;
+  		border-width: 3px;
+	}
+	.slide-carousel .arrow-right {
+	  right: 14%;
+	  top: 53%;
+	  font-size: 35px;
+	}
+	.slide-carousel .slides .slide span.text {
+		margin-top: 28%;
+		font-size: 35px;
+	}
+	
+}
+@media all and (max-width: 576px){
+	.slide-carousel .slides .slide {
+	  margin-right: 50px;
+	}
+	
+	.slide-carousel .arrow-left {
+	  	right: 14%;
+  		top: 12%;
+  		font-size: 35px;
+  		padding-right: 5px;
+  		border-width: 3px;
+	}
+	.slide-carousel .arrow-right {
+	  right: 14%;
+	  top: 45%;
+	  font-size: 35px;
+	}
+	.slide-carousel .slides .slide span.text {
+		margin-top: 22%;
+		font-size: 25px;
+	}
+	
+}
+@media all and (max-width: 450px){
+	.slide-carousel .slides .slide {
+	  margin-right: 40px;
+	}
+	
+	.slide-carousel .arrow-left {
+	  	right: 14%;
+  		top: 8%;
+  		
+	}
+	.slide-carousel .slides .slide span.text {
+		margin-top: 22%;
+		font-size: 20px;
+	}
+	
+}
+@media all and (max-width: 300px){
+	.slide-carousel .slides .slide {
+	  margin-right: 30px;
+	}
+	
+	.slide-carousel .arrow-left {
+	  	right: 14%;
+  		top: 8%;
+  		font-size: 25px;
+  		
+	}
+	.slide-carousel .slides .slide span.text {
+		margin-top: 14%;
+		font-size: 20px;
+	}
+	.slide-carousel .arrow-right {
+	  font-size: 25px;
+	  top: 50%;
+	}
+	
+}

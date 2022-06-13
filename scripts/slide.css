@@ -1,0 +1,286 @@
+/*
+
+  html, body
+
+*/
+
+
+/* Html, Body */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    background: #181926;
+}
+
+
+/* No Select */
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/*
+
+  Wrapper
+
+*/
+
+
+/* Wrapper */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+/*
+  
+  Responsive View
+
+*/
+
+
+/* Smartphones */
+
+@media only screen and (max-width:768px) {
+    .slide-carousel .slides .slide {
+        height: 100%;
+        flex: 0 0 calc(53% + 5px);
+        transform: translateX(calc(-71% - 15px));
+    }
+    .slide-carousel .arrow-left,
+    .slide-carousel .arrow-right {
+        width: 10%;
+    }
+    .slide-carousel .dots {
+        right: calc(10% + 10px);
+        bottom: 15px;
+    }
+    .slide-carousel .auto-play {
+        left: calc(5% + 30px);
+        bottom: 10px;
+        transform: scale(0.6);
+    }
+}
+
+
+/* Tablets (potrait) */
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .slide-carousel .slides .slide {
+        height: 100%;
+        flex: 0 0 calc(53% + 5px);
+        transform: translateX(calc(-68% - 15px));
+    }
+    .slide-carousel .arrow-left,
+    .slide-carousel .arrow-right {
+        width: 5%;
+    }
+    .slide-carousel .dots {
+        right: calc(20% + 10px);
+        bottom: 20px;
+    }
+    .slide-carousel .auto-play {
+        left: calc(5% + 20px);
+        bottom: 20px;
+    }
+}
+
+
+/* Tablets (landscape) */
+
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+    .slide-carousel .slides .slide {
+        height: 100%;
+        flex: 0 0 calc(60% + 5px);
+        transform: translateX(calc(-77% - 15px));
+    }
+    .slide-carousel .arrow-left,
+    .slide-carousel .arrow-right {
+        width: 5%;
+    }
+    .slide-carousel .dots {
+        right: calc(20% + 10px);
+        bottom: 20px;
+    }
+    .slide-carousel .auto-play {
+        left: calc(5% + 20px);
+        bottom: 20px;
+    }
+}
+
+
+/* Desktop and above */
+
+@media only screen and (min-width:1440px) {
+    .slide-carousel .slides .slide {
+        height: 100%;
+        flex: 0 0 calc(60% + 5px);
+        transform: translateX(calc(-77% - 15px));
+    }
+    .slide-carousel .arrow-left,
+    .slide-carousel .arrow-right {
+        width: 5%;
+    }
+    .slide-carousel .dots {
+        right: calc(25% + 10px);
+        bottom: 20px;
+    }
+    .slide-carousel .auto-play {
+        left: calc(% + 20px);
+        bottom: 20px;
+    }
+}
+
+
+/*
+
+  Slide Carousel
+
+*/
+
+
+/* Slide Carousel */
+
+.slide-carousel {
+    width: 100%;
+    height: 60%;
+    min-height: 400px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Slides Container */
+
+.slide-carousel .slides {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Single Slide */
+
+.slide-carousel .slides .slide {
+    height: 100%;
+    position: relative;
+    border-radius: 8px;
+    margin-right: 100px;
+    background: #292a36;
+    /*transform: translateX(calc(-95% - 12px));*/
+}
+
+
+/*
+
+  Slide Carousel Navigation Arrows
+
+*/
+
+
+/* Navigation Arrows */
+
+.slide-carousel .arrow-left,
+.slide-carousel .arrow-right {
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    z-index: 9999;
+    width: 3%;
+}
+
+
+/* Navigation Arrow Left */
+
+.slide-carousel .arrow-left {
+    float: right;
+    right: 14%;
+    top: 32%;
+    padding-right: 10px;
+    border-bottom: 2px solid #fff;
+    border-width: 5px;
+}
+
+
+/* Navigation Arrow Right */
+
+.slide-carousel .arrow-right {
+    float: right;
+    right: 14%;
+    top: 53%;
+}
+
+
+/* Navigation Arrow Left & Right Hover */
+
+.slide-carousel .arrow-left:hover,
+.slide-carousel .arrow-right:hover {
+    cursor: pointer;
+}
+
+
+/*
+
+  Slide Carousel Navigation Dots
+
+*/
+
+.slide-carousel .slides .slide span.title {
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+.slide-carousel .slides .slide span.numbertext {
+    color: #fff;
+    margin: 10px;
+}
+
+.slide-carousel .slides .slide span.text {
+    height: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin-top: -27%;
+    position: relative;
+    display: block;
+}
+
+.layer {
+    background: transparent;
+}
+
+.footer-pone h4 {
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.footer-ptwo {
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
